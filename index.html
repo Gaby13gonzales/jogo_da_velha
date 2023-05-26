@@ -4,38 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo da Velha</title>
+    <title>Jogo da velha</title>
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
-
-    <!--Java script-->
-
+    <!--JavaScript-->
     <script src="js/script.js"></script>
 </head>
 <body>
-    <main>
+    <img class="velha" src="/image/idosa.1.png"
+   <main>
+    <section>
+        <h1>Jogo da Velha</h1>
+    </section>
+    <section class="tabuleiro">
+        <div>
+            <input type="button" value=" " id="btn1" onclick="clickBtn1()">
+            <input type="button" value=" " id="btn2" onclick="clickBnt2()">
+            <input type="button" value=" " id="btn3" onclick="clickBnt3()">
+            </div>
+            <div>
+                <input type="button" value=" " id="btn4" onclick="clickBnt4()">
+                <input type="button" value=" " id="btn5" onclick="clickBnt5()">
+                <input type="button" value=" " id="btn6" onclick="clickBnt6()">
+            </div>
+            <div>
+                <input type="button" value=" " id="btn7" onclick="clickBnt7()">
+                <input type="button" value=" " id="btn8" onclick="clickBnt8()">
+                <input type="button" value=" " id="btn9" onclick="clickBnt9()">
+            </div>
+        </section>
         <section>
-            <h1>Jogo da Velha</h1>
+            <h2>
+                <span id="lblJogador">Jogador X</span>
+                <span id="lblJogadas">(1ª Jogada)</span> 
+            </h2>
         </section>
-        <section class="tabuleiro">
-            <div>
-                <input type="button" value=" " id="btn1" onclick="ClickBtn1 ()">
-                <input type="button" value=" " id="btn2">
-                <input type="button" value=" " id="btn3">
-            </div>
-            <div>
-                <input type="button" value=" " id="btn4">
-                <input type="button" value=" " id="btn5">
-                <input type="button" value=" " id="btn6">
-            </div>
-            <div>
-                <input type="button" value=" " id="btn7">
-                <input type="button" value=" " id="btn8">
-                <input type="button" value=" " id="btn9">
-            </div>
-        </section>
-        <section></section>
     </main>
-    
 </body>
 </html>

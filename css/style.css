@@ -6,8 +6,22 @@ main {
     width: 100px;
     height: 100px;
     margin: 5px;
-    border: 1px solid gray;
+    border: 1px solid rgb(215, 8, 204);
     border-radius: 6px;
     font-size: 30px;
     cursor: pointer;
+}
+
+body {
+    background-color: rgb(255, 152, 228);
+}
+
+h1 {
+    font-size: 3rem;
+    font-variant: small-caps;
+    color: white;
+}
+
+.velha {
+    float: left;
 }
