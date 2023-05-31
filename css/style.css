@@ -23,5 +23,29 @@ h1 {
 }
 
 .velha {
-    float: left;
+  position: fixed;
+  margin-top: 120px;
+  margin-left: 50px;
+  width: 290px;
+
+}
+
+.palmas {
+  position: fixed;
+  margin-top: 180px;
+  margin-left: 900px;
+  width: 290px;
+
+}
+
+.baloes {
+  position: fixed;
+  margin-top: 50px;
+  margin-left: 900px;
+  width: 290px;
+}
+
+.button {
+    background-color: blueviolet;
+    color: pink;
 }
