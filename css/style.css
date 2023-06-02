@@ -1,51 +1,78 @@
 main {
-    text-align: center;
+  text-align: center;
 }
 
 .tabuleiro div input {
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-    border: 1px solid rgb(215, 8, 204);
-    border-radius: 6px;
-    font-size: 30px;
-    cursor: pointer;
+  right: 50px;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: 1px solid rgb(215, 8, 204);
+  border-radius: 6px;
+  font-size: 30px;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.containerPersonagens div input {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 30px;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 body {
-    background-color: rgb(255, 152, 228);
+  background-color: rgb(255, 152, 228);
 }
 
 h1 {
-    font-size: 3rem;
-    font-variant: small-caps;
-    color: white;
+  font-size: 3rem;
+  font-variant: small-caps;
+  color: white;
 }
 
-.velha {
+.insta {
   position: fixed;
-  margin-top: 120px;
+  margin-top: 80px;
   margin-left: 50px;
-  width: 290px;
+  width: 245px;
 
 }
 
-.palmas {
-  position: fixed;
-  margin-top: 180px;
-  margin-left: 900px;
-  width: 290px;
-
-}
-
-.baloes {
+.logo {
   position: fixed;
   margin-top: 50px;
   margin-left: 900px;
-  width: 290px;
+  width: 250px;
+
 }
 
+.bolo {
+  position: fixed;
+  margin-top: 22px;
+  margin-left: 900px;
+  width: 200px;
+  top: 250px;
+}
+
+
 .button {
-    background-color: blueviolet;
-    color: pink;
+  background-color: blueviolet;
+  color: pink;
+}
+
+.containerPersonagens div input {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 30px;
+  cursor: pointer;
 }

@@ -1,50 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo da velha da Gabys</title>
+    <title>Jogo da velha - Doceria Gaby Gonzales</title>
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
-    <!--JavaScript-->
-    <script src="js/script.js"></script>
 </head>
+
 <body>
-    <img class="velha" src="./image/idosas.gif">
-    <img class="palmas" src="./image/palmas.webp">
-    <img class="baloes" src="./image/baloes.webp">
-    
+    <img class="insta" src="./image/insta.jpg">
+    <img class="logo" src="./image/doceria.png">
+    <img class="bolo" src="./image/bolo.png">
+
+
     <main>
-    <section>
-        <h1>Jogo da Velha da Gabys</h1>
-    </section>
-    <section class="tabuleiro">
-        <div>
-            <input type="button" value=" " id="btn1" onclick="clickBtn1()">
-            <input type="button" value=" " id="btn2" onclick="clickBnt2()">
-            <input type="button" value=" " id="btn3" onclick="clickBnt3()">
+        <section>
+            <h1>Jogo da velha
+                Doceria Gaby Gonzales
+            </h1>
+        </section>
+
+        <section id="containerPersonagens" class="containerPersonagens">
+            <h2>Selecione o <span id="ordemPersonagem">1º</span> doce</h2>
+            <div>
+                <input type="button" value=" " id="doce1" onclick="clickdoce('ferrero')">
+                <input type="button" value=" " id="doce2" onclick="clickdoce('churros')">
+                <input type="button" value=" " id="doce3" onclick="clickdoce('casadinho')">
             </div>
             <div>
-                <input type="button" value=" " id="btn4" onclick="clickBnt4()">
-                <input type="button" value=" " id="btn5" onclick="clickBnt5()">
-                <input type="button" value=" " id="btn6" onclick="clickBnt6()">
-            </div>
-            <div>
-                <input type="button" value=" " id="btn7" onclick="clickBnt7()">
-                <input type="button" value=" " id="btn8" onclick="clickBnt8()">
-                <input type="button" value=" " id="btn9" onclick="clickBnt9()">
+                <input type="button" value=" " id="doce4" onclick="clickdoce('brig')">
+                <input type="button" value=" " id="doce5" onclick="clickdoce('bjo')">
+                <input type="button" value=" " id="doce6" onclick="clickdoce('bichodepe')">
             </div>
         </section>
-        <section>
-            <h2>
-                <span id="lblJogador">Jogador X</span>
-                <span id="lblJogadas">(1ª Jogada)</span> 
-            </h2>
 
-           <input type="button" value="Reiniciar"
-           id="btnReiniciar" class="button" onclick="clickReiniciar()">
+        <section id="containerTabuleiro" class="tabuleiro">
+            <div>
+                <input type="button" value=" " id="btn1" onclick="clickBtn1()">
+                <input type="button" value=" " id="btn2" onclick="clickBtn2()">
+                <input type="button" value=" " id="btn3" onclick="clickBtn3()">
+            </div>
+            <div>
+                <input type="button" value=" " id="btn4" onclick="clickBtn4()">
+                <input type="button" value=" " id="btn5" onclick="clickBtn5()">
+                <input type="button" value=" " id="btn6" onclick="clickBtn6()">
+            </div>
+            <div>
+                <input type="button" value=" " id="btn7" onclick="clickBtn7()">
+                <input type="button" value=" " id="btn8" onclick="clickBtn8()">
+                <input type="button" value=" " id="btn9" onclick="clickBtn9()">
+            </div>
+
+            <section>
+                <h2>
+                    <span id="lblJogador">Jogador 1</span>
+                    <span id="lblJogadas">(1ª Jogada)</span>
+                </h2>
+
+                <input type="button" value="Reiniciar" id="btnReiniciar" onclick="clickReiniciar()">
+            </section>
         </section>
     </main>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>
